@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Irriated</title>
+        <title>invoice</title>
         <link rel="stylesheet" href="invoice.css" type="text/css" />
         
     </head>
-                        <!--One-->
+                        <!--Start one-->
     <body>
         <div class="float">
             <div class="one">
@@ -17,20 +17,17 @@
             <div class="one">
                 <div id='display4'></div></div>
             
-        
-        
-        <div>
-            
+        <div id='hide'>
         <input type="text" id='name' placeholder="Last, First name"><br><br>
         <input type="text" id='company' placeholder="Company Name"><br><br>
         <input type="text" id="address" placeholder="Address"><br><br>
         <input type="text" id="City" placeholder="City and State"><br><br>
-            </div>
+           
     
                    
         
             <br><button class="button1"  id='button1' >Update</button>
-       <script type="text/javascript" src="is.js"></script>
+           </div>
        </div>
                    <!--End One-->
                    
@@ -45,7 +42,7 @@
                  <div class="one">
             <div id='display8'></div></div>
             
-                  
+             <div id='hide2'>     
         <input id='las2' type="text" placeholder ="Last, First name"/><br><br>
         <input id='company2' type="text" placeholder ="Company Name"/><br><br>
         <input id='address2' type="text" placeholder ="Address"/><br><br>
@@ -53,20 +50,26 @@
         
             <button id='button2' class="button1">Update</button><br><br>
             </div> 
-                 <!-- start three -->
+        </div>    
+                 <!--three -->
           <div class="container"> 
                     
-           <strong> <div class="left" id='Items'></div> </strong>
-                 
-            <div class="center" id='Discription'> </div>
-                 
-            <div class="right" id='Price'></div>
+           <strong>
+            <br><div class="left" id='Items'></div> </strong>
+            <br><div class="center" id='Discription'> </div>
+            <br><div class="right" id='Price'></div>
         </div> 
+        <div id='hide3' >
          <br><br><input id='Item' type="text" placeholder ="Item"/><br><br>
          <input id='discription' class="discription" type="text" placeholder ="Discription"/><br><br>
          <input id='price' type="text" placeholder ="Price"/><br><br>
           
           <button id='button3' class="button1" >Submit</button>
-              </div>
+          
+          </div>
+         
+             <button onclick="showHideBoxes()" id='hideShow' class="button1">Hide/show</button>
+          
+       <script type="text/javascript" src="is.js"></script>
     </body>
 </html>

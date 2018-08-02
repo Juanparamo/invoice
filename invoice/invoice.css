@@ -5,9 +5,9 @@
 }
 .float{
     float: left;
-    width: 750px;
+    width: 940px;
 }
-.button1{
+button{
     padding: 3px 50px;
     background-color: #07f2de;
     color: white;
@@ -26,9 +26,10 @@ input[type="text"]{
 
 .float2{
     float: right;
-    width: 770px;
+    width: 964px;
 }
 
+/*three*/
 
 .discription{
     height: 130px;
@@ -55,6 +56,6 @@ input[type="text"]{
 .right{
     border: 0px solid black;
     width: 10%;
-    font-size: 20px;
+    font-size: 40px;
     
 }

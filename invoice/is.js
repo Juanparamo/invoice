@@ -12,6 +12,7 @@ var valEight = '';
 var valItem = '';
 var valDis = '';
 var valPrice = '';
+
 /* one */
 function one(){
     document.getElementById('display1').innerHTML = valOne ;
@@ -74,4 +75,19 @@ function price(){
       valPrice = document.getElementById('price').value; price();
     };
 };
+
+
+function showHideBoxes(){
+  if(document.getElementById('hideShow').onclick){
+    document.getElementById('hide').style.display='none';
+   }else{document.getElementById('hide').style.display='block';}
+
+  if(document.getElementById('hideShow').onclick){
+    document.getElementById('hide2').style.display='none';
+   }else{document.getElementById('hide2').style.display='block';}
+ 
+  if(document.getElementById('hideShow').onclick){
+    document.getElementById('hide3').style.display='none';
+   }else{document.getElementById('hide3').style.display='block';}
+}
     
