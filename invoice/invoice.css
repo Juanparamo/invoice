@@ -1,0 +1,60 @@
+
+/* one */
+.one{
+    padding-top: 13px;
+}
+.float{
+    float: left;
+    width: 750px;
+}
+.button1{
+    padding: 3px 50px;
+    background-color: #07f2de;
+    color: white;
+    border-radius: 12px;
+}
+
+input[type="text"]{
+  width:90%;
+  border:1px solid #000;
+  padding:5px;
+  border-radius:5px;
+  text-align: center;
+}
+    
+/*two*/
+
+.float2{
+    float: right;
+    width: 770px;
+}
+
+
+.discription{
+    height: 130px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  padding-right: 30px;
+}
+
+.left{
+    border: 0px solid black;
+    text-decoration: none;
+    width: 280%;
+    
+}
+.center{
+    padding-left: 490px;
+    border: 0px solid black;
+    width: 29%;
+    padding-right: 0px;
+}
+.right{
+    border: 0px solid black;
+    width: 10%;
+    font-size: 20px;
+    
+}
